@@ -1,2 +1,8 @@
-# image-ascii
-将图片转为ASCII艺术
+# Image to ASCII
+
+A simple Python package to convert images to ASCII art.
+
+## Installation
+
+```bash
+pip install image-ascii
