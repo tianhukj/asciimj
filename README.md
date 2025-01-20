@@ -5,7 +5,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/yourusername/image-ascii/issues)
-
+![Commit Activity](https://img.shields.io/github/commit-activity/y/tianhukj/image-ascii)
 
 A simple Python package to convert images to ASCII art.
 
