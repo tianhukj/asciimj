@@ -7,6 +7,8 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/yourusername/image-ascii/issues)
 ![Commit Activity](https://img.shields.io/github/commit-activity/y/tianhukj/image-ascii)
 ![GitHub Watchers](https://img.shields.io/github/watchers/tianhukj/image-ascii?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/tianhukj/image-ascii?style=social)
+
 
 A simple Python package to convert images to ASCII art.
 
