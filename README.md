@@ -11,3 +11,15 @@ A simple Python package to convert images to ASCII art.
 
 ```bash
 pip install image-ascii
+```
+
+## Contributing
+Contributions are welcome! If you have any suggestions or find any issues, feel free to open an issue or submit a pull request.
+
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/image-ascii.git
+```
+
+## License
+This project is licensed under the MIT License. See the LICENSE![](/LICENSE) file for details.
