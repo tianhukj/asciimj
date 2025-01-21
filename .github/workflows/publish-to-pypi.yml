@@ -1,5 +1,6 @@
-name: Python package
+name: Manual Trigger Workflow
 
+# 使用 workflow_dispatch 事件来手动触发工作流
 on:
   workflow_dispatch:
 
