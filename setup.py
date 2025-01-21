@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="image-ascii",
+    name="imageascii",
     version="0.1.0",
     author="tianhukj",
     author_email="tianhukj@outlook.com",
