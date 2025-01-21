@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Specify the Python version you want to use
+        python-version: '3.8'  # Specify the Python version you want to use
 
     - name: Install dependencies
       run: |
@@ -26,7 +26,7 @@ jobs:
       run: |
         python setup.py sdist bdist_wheel
 
-    - name: Upload package to PyPI
+    - name: Upload package 
       env:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
