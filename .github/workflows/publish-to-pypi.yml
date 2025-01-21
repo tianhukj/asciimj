@@ -3,7 +3,7 @@ name: Publish Python Package
 on:
   push:
     tags:
-      - 'v*.*.*'  # 仅在推送符合版本模式的标签时触发，例如 v1.2.3
+      - 'v0.1.0'  # 仅在推送符合版本模式的标签时触发，例如 v1.2.3
 
 jobs:
   publish:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # 请根据你的Python版本进行调整
+          python-version: '3.8'  # 请根据你的Python版本进行调整
 
       - name: Install dependencies
         run: |
