@@ -17,7 +17,7 @@
 ## Installation
 
 ```bash
-pip install image-ascii
+pip install asciimj
 ```
 
 ## Contributing
@@ -25,7 +25,7 @@ Contributions are welcome! If you have any suggestions or find any issues, feel 
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/image-ascii.git
+git clone https://github.com/tianhukj/image-ascii.git
 ```
 
 ## License
