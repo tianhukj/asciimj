@@ -25,7 +25,7 @@ Contributions are welcome! If you have any suggestions or find any issues, feel 
 
 ### Clone the repository
 ```bash
-git clone https://github.com/tianhukj/image-ascii.git
+git clone https://github.com/tianhukj/asciimj.git
 ```
 
 ## License
