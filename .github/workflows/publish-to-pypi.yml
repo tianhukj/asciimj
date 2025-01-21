@@ -1,6 +1,5 @@
-name: Manual Trigger Workflow
+name: Python package
 
-# 使用 workflow_dispatch 事件来手动触发工作流
 on:
   workflow_dispatch:
 
@@ -15,7 +14,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # Specify the Python version you want to use
+        python-version: '3.x'  # Specify the Python version you want to use
 
     - name: Install dependencies
       run: |
@@ -28,8 +27,8 @@ jobs:
 
     - name: Upload package to PyPI
       env:
-        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
-        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
       run: |
         pip install twine
         twine upload dist/*
