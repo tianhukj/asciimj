@@ -10,6 +10,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/tianhukj/image-ascii?style=social)
 [![Buy Me a Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-FF813F.svg?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/tianhukj)
 [![Python package](https://github.com/tianhukj/image-ascii/actions/workflows/python-package.yml/badge.svg)](https://github.com/tianhukj/image-ascii/actions/workflows/python-package.yml)
+![PyPI](https://img.shields.io/pypi/v/asciimj)
 
 
 #### A simple Python package to convert images to ASCII art.
