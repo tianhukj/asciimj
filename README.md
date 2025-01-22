@@ -1,4 +1,4 @@
-# Image to ASCII
+# Image to ASCII--asciimj 🥳
 
 [![PyPI version](https://badge.fury.io/py/image-ascii.svg)](https://badge.fury.io/py/image-ascii)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
